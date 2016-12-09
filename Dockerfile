@@ -12,10 +12,10 @@ RUN apt-get update && \
     python-setuptools \
     git \
     less \
-    build-essential
-    gcc
-    zlib1g-dev 
-    libncurses5-dev
+    build-essential \
+    gcc \
+    zlib1g-dev \ 
+    libncurses5-dev \
     python-numpy
     
 RUN git clone https://github.com/cgrlab/fusioncatcher.git;
