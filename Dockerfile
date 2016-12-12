@@ -16,7 +16,8 @@ RUN apt-get update && \
     gcc \
     zlib1g-dev \ 
     libncurses5-dev \
-    python-numpy
+    python-numpy \
+    python-biopython
     
 RUN git clone https://github.com/cgrlab/fusioncatcher.git;
 
